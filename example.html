@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- Created by steven.lv : http://www.ofoct.com/html5-button-maker/html5-button-maker.html -->
+<html>
+<head>
+	<title>HTML5 BUTTON Example</title>
+	<link  rel="stylesheet" type="text/css" href="h5button.css" media="all" />
+	<script src="h5button.js"></script>
+	<script language="javascript">
+		window.onload = function(){
+			h5_button_build_by_id("h5button1", {
+				mask_effect 	: "curve-right",/*none,curve,curve-left,curve-right,liner,liner-left,liner-right,crystal-left,crystal-right,arc-left,arc-right,arc2-left,arc2-right*/	
+				mask_alpha		: "0.3",
+				mask_color		: "#FFFFFF",
+				hover_effect 	: "line_bright_light_left_to_right",/*none,line_light_horizontal,line_light_vertical,line_bright_light_left_to_right,circle_light_lt_to_rb,circle_light_rt_to_lb,arc_light_lt_to_rb,arc_light_rt_to_lb,arc_light_lt_to_rt,arc_light_rt_to_lt*/
+				hover_alpha 	: "0.2",
+				hover_color 	: "#FFFFFF",
+				hover_speed 	: 15,
+				hover_loop 		: true
+			});
+			h5_button_build_by_class("h5button", {
+				mask_effect 	: "curve-left",/*none,curve,curve-left,curve-right,liner,liner-left,liner-right,crystal-left,crystal-right,arc-left,arc-right,arc2-left,arc2-right*/	
+				mask_alpha		: "0.3",
+				mask_color		: "#FFFFFF",
+				hover_effect 	: "line_bright_light_left_to_right",/*none,line_light_horizontal,line_light_vertical,line_bright_light_left_to_right,circle_light_lt_to_rb,circle_light_rt_to_lb,arc_light_lt_to_rb,arc_light_rt_to_lb,arc_light_lt_to_rt,arc_light_rt_to_lt*/
+				hover_alpha 	: "0.2",
+				hover_color 	: "#FFFFFF",
+				hover_speed 	: 15,
+				hover_loop 		: true
+			});
+		}
+	</script>
+</head>
+<body>
+<br>
+<p ><a href="" id="h5button1" class="h5button"><span>Hello World</span></a></p>
+<p><a href="" class="h5button"><img src="accept.png"/><span>Hello World</span></a></p>
+<p><a href="" class="h5button"><span>Hello World sssss</span><img src="accept.png"/></a></p>
+<div><a href="" class="h5button"><span>Hello World</span><br/><img src="accept.png"/></a></div>
+<p><a href="" class="h5button"><img src="accept.png"/><br/><span>Hello World</span></a></p>
+<p><button class="h5button"><img src="accept.png"/><span>Hello World</span></button></p>
+
+<div style="background:black; width:300px; height:100px; text-align:center; padding-top:50px;" ><a href="" class="h5button"><span>Hello World</span><br/><img src="accept.png"/></a></div>
+
+</body>
+</html>

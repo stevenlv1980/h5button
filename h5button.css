@@ -1,0 +1,95 @@
+/*
+	H5 Buttons CSS v1.1
+	Created by steven.lv : http://www.ofoct.com/html5-button-maker/html5-button-maker.html
+	This a free and open source javascript plugin and CSS. You can free use for person or commerce. 
+	But please reserve this declaration.
+*/
+	.h5button {
+		/*--common */
+		display:inline-block;
+		cursor: pointer;
+		text-align:center;
+		/*common end*/
+		
+		/*--border */
+		border-width: 1px;
+		border-color: rgb(2, 205, 232);
+		box-shadow: inset 0 1px 2px #FFFFFF, 0 0 3px #999999;
+		-o-box-shadow: inset 0 1px 2px #FFFFFF, 0 0 3px #999999;
+		-webkit-box-shadow: inset 0 1px 2px #FFFFFF, 0 0 3px #999999;
+		-moz-box-shadow: inset 0 1px 2px #FFFFFF, 0 0 3px #999999;
+		-ms-box-shadow: inset 0 1px 2px #FFFFFF, 0 0 3px #999999;
+		/*border end*/		
+	
+		/*--padding*/
+		padding: 6px;
+		padding-bottom: 10px;
+		/*padding end*/
+		
+		/*--button text */
+		font-family: cursive;
+		color: #FFFFFF;
+		text-shadow: -1px -1px 1px #777777;
+		text-decoration: none;	
+		/*button text end*/
+		
+		/*--background */
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3b679e+0,2b88d9+50,207cca+51,7db9e8+100;Blue+Gloss+%232 */
+		background: rgb(59,103,158); /* Old browsers */
+		background: -moz-linear-gradient(-45deg,  rgba(59,103,158,1) 0%, rgba(43,136,217,1) 50%, rgba(32,124,202,1) 51%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(-45deg,  rgba(59,103,158,1) 0%,rgba(43,136,217,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(135deg,  rgba(59,103,158,1) 0%,rgba(43,136,217,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+		/*background end */
+	}    
+	.h5button,.h5button canvas
+	{
+		/*--border */
+		-webkit-border-top-left-radius: 0px;
+		-moz-border-radius-topleft: 0px;
+		border-top-left-radius: 10px;
+		-webkit-border-top-right-radius: 0px;
+		-moz-border-radius-topright: 0px;
+		border-top-right-radius: 0px;
+		-webkit-border-bottom-left-radius: 0px;
+		-moz-border-radius-bottomleft: 0px;
+		border-bottom-left-radius: 0px;
+		-webkit-border-bottom-right-radius: 0px;
+		-moz-border-radius-bottomright: 0px;
+		border-bottom-right-radius: 20px;
+		/*border end*/		
+	}		
+		/*hover -> border +6px color light+10*/
+	.h5button.hover,.h5button:hover {
+		/*--border */
+		box-shadow: inset 0 1px 2px #FFFFFF, 0 0 6px #999999;
+		-o-box-shadow: inset 0 1px 2px #FFFFFF, 0 0 6px #999999;
+		-webkit-box-shadow: inset 0 1px 2px #FFFFFF, 0 0 6px #999999;
+		-moz-box-shadow: inset 0 1px 2px #FFFFFF, 0 0 6px #999999;
+		-ms-box-shadow: inset 0 1px 2px #FFFFFF, 0 0 6px #999999;
+		/*border end*/
+		
+		/*--background */
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3b679e+0,2b88d9+50,207cca+51,7db9e8+100;Blue+Gloss+%232 */
+		background: rgb(59,103,158); /* Old browsers */
+		background: -moz-linear-gradient(-45deg,  rgba(59,103,158,1) 0%, rgba(43,136,217,1) 50%, rgba(32,124,202,1) 51%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(-45deg,  rgba(59,103,158,1) 0%,rgba(43,136,217,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(135deg,  rgba(59,103,158,1) 0%,rgba(43,136,217,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+		/*background end */
+	}
+	.h5button img,.h5button span
+	{
+		vertical-align: middle;
+		margin-left:2px;
+		margin-right:2px;
+	}
+	.h5button img
+	{
+		width:16px;
+		height:16px;
+	}
+	.h5button span
+	{
+		font-size:8px;
+	}
